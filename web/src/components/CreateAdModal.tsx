@@ -4,9 +4,9 @@ import * as Dialog from '@radix-ui/react-dialog';
 import * as Checkbox from '@radix-ui/react-checkbox';
 import * as ToggleGroup from '@radix-ui/react-toggle-group';
 
-import { Input } from "./Form/Input";
 import { FormEvent, useEffect, useState } from "react";
 import axios from "axios";
+import { Input } from "./Form/Input";
 
 interface Game {
   id: string;
