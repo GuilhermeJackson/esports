@@ -1,11 +1,9 @@
 import "./styles/main.css";
 import * as Dialog from "@radix-ui/react-dialog";
-import * as ToggleGroup from "@radix-ui/react-toggle-group";
 import logoImg from "./assets/logo-nlw-esports.svg.svg";
 import { GameBanner } from "./components/GameBanner";
 import { CreateAdBanner } from "./components/CreateAdBanner";
 import { useState, useEffect } from "react";
-import { GameController } from "phosphor-react";
 import { CreateAdModal } from "./components/CreateAdModal";
 
 interface Game {
