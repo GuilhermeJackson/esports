@@ -1,9 +1,5 @@
 {
     "name": "server",
     "version": 1,
-    "public": true,
-    "build": {
-        "src": "server.ts",
-        "use": "@vercel/node"
-    }
+    "public": true
 }
